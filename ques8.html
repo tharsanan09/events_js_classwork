@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques8</title>
+</head>
+<body>
+    
+     <!-- ques8 --> 
+     <div id="hoverDiv" style="height: 100px;">Hover over me!</div>
+
+     <script>
+        // ques8
+      
+const hoverDiv = document.getElementById('hoverDiv');
+
+//  mouseover 
+hoverDiv.addEventListener('mouseover', function() {
+  hoverDiv.style.backgroundColor = 'lightblue'; // Change background 
+});
+
+//  mouseout 
+hoverDiv.addEventListener('mouseout', function() {
+  hoverDiv.style.backgroundColor = 'lightcoral'; // original color
+});
+     </script>
+</body>
+</html>

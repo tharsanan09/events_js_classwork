@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques7</title>
+</head>
+<body>
+     <!-- ques7 -->
+     <button id="Button2">Click Me!</button>
+     <p id="message2"></p>
+
+     <script>
+        // ques7
+
+const button2 = document.getElementById('Button2');
+
+//  on click
+button2.addEventListener('click', function() {
+  document.getElementById('message2').textContent = "Button was clicked!";
+});
+
+//  on mouseover (hover)
+button2.addEventListener('mouseover', function() {
+  button2.style.backgroundColor = "lightblue"; // Change button color on hover
+});
+
+// on mouseout 
+button2.addEventListener('mouseout', function() {
+  button2.style.backgroundColor = ""; // Reset button color when hover is removed
+});
+     </script>
+    
+</body>
+</html>
